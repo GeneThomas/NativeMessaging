@@ -72,7 +72,7 @@ class Program
                 Host.Register();
             } else if(args.Contains("--unregister"))
             {
-                Host.UnRegister();
+                Host.Unregister();
             } else
             {
                 Host.Listen();
